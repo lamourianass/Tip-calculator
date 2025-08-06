@@ -28,3 +28,21 @@ input {
   margin: 10px 0;
   width: 100%;
 }
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: background-color .2s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #45a049;
+}
