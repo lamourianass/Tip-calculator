@@ -7,7 +7,7 @@ function calculateTotal() {
   const billValue = billInput.value
   const tipValue = tipInput.value
   const totalValue = billValue * ((1 + tipValue) / 100)
-  totalField.innerText = totalValue
+  totalField.innerText = totalValue.toFixed(2)
 }
 
 btnEl.addEventListener('click', calculateTotal)
